@@ -1,7 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiApp1.MainPage">
+             x:Class="MauiApp1.MainPage"
+             Title="Managerium POS">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Developed by Akash"/>
+    </ContentPage.ToolbarItems>
 
     <VerticalStackLayout Margin="15" Padding="30, 60, 30, 30">
         <Label Text="Please Log In" HorizontalTextAlignment="Center" FontSize="30" FontAttributes="Bold" TextColor="Black"/>
@@ -9,7 +14,10 @@
         <Entry />
         <Label Text="Enter your password" TextColor="Black" />
         <Entry IsPassword="True" />
-        <Button Text="Log in" BackgroundColor="NavajoWhite" Clicked="LoginButton_Clicked" />
+        <CollectionView>
+
+        </CollectionView>
+        <Button Text="Log in" BackgroundColor="White" TextColor="Black" FontAttributes="Bold" Clicked="LoginButton_Clicked" Margin="255,0,255,0" />
     </VerticalStackLayout>
 
 </ContentPage>

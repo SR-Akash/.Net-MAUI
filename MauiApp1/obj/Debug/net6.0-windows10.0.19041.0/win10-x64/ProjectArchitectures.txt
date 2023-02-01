@@ -1,1 +1,1 @@
-D:\MAUI\MauiApp1\MauiApp1\MauiApp1.csproj;x64
+D:\Managerium API\.Net-MAUI\MauiApp1\MauiApp1.csproj;x64

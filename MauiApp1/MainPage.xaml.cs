@@ -37,10 +37,27 @@ public partial class MainPage : ContentPage
 
         InitializeComponent();
     }
-  
+
     void LoginButton_Clicked(object sender, EventArgs e)
     {
         Debug.WriteLine("Clicked !");
+
+        var navigationParameter = new Dictionary<string, object>
+        {
+
+        };
     }
+
+    void OnSelectionChange(object sender, SelectionChangedEventArgs e)
+    {
+        Debug.WriteLine("Selected !");
+    }
+
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+
+    }
+
 }
 

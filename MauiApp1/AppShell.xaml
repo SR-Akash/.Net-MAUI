@@ -7,7 +7,7 @@
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
-        Title="Inventory Management"
+        Title="Managerium POS "
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
